@@ -100,12 +100,12 @@ print('oi, $listaPacientes2');
 
 //  Pacientes por funcao
   final listaPacientes3 = [
-    'Gustavo Dias|24',
-    'Luana Monteiro|23',
-    'Vinicius José|23',
-    'Carafernalha|08',
-    'Caraferna|08',
-    'Aa|2',
+    'Gustavo|24',
+    'Motorista|23',
+    'Olheiro|23',
+    'Taxista|08',
+    'Motoqueiro|08',
+    'Ana|2',
   ];
   print('Antes');
   print(listaPacientes3);
@@ -134,5 +134,5 @@ print('oi, $listaPacientes2');
 
     return idadePaciente1.compareTo(idadePaciente2);
   });
-  print('beibe $localPacientes');
+  print('Tem $localPacientes');
   }
